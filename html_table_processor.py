@@ -233,7 +233,8 @@ class HtmlFormatter(HtmlTableProcessor):
 
 if __name__ == '__main__':
     """ If run as its own program rather than used as a module, demonstrate
-    functionality using example subclass. """
+    functionality using example subclass.
+    """
 	hf = HtmlFormatter()
 	hf.find_all_tables()   # Sets tables attribute as side effect.
 	hf.format() # Sets dict and list attributes as side effect.
