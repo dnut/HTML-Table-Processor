@@ -193,11 +193,11 @@ class HtmlTableProcessor(HtmlProcessor):
 class HtmlFormatter(HtmlTableProcessor):
 	""" An HtmlFormatter() object is a highly specialized variant of
 	its parent class. It is meant to deal specifically with the tables
-	found at the data-interview.enigmalabs.org web page. This class
+	found at the redacted.org web page. This class
     exists as an example to demonstrate how its parent class could be
     taken advantage of.
 	"""
-	def __init__(self, index_url='http://data-interview.enigmalabs.org',
+	def __init__(self, index_url='http://redacted.org',
 				 start_page='/companies'):
 		self.index_url = index_url
 		self.start_page = start_page
